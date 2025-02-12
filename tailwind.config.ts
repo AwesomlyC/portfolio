@@ -7,12 +7,9 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
+    extend: {fontFamily: {
+      primary: ["Raleway"],
+    }},
   },
   plugins: [],
 } satisfies Config;
