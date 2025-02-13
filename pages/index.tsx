@@ -24,7 +24,7 @@ const HomePage = () => {
 
         <Hero />
         <div className='relative z-[20]'>
-          <About />
+          {/* <About /> */}
           <Services />
           <Skills />
           <Projects />

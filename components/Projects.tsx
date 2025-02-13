@@ -4,12 +4,11 @@ import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
-    <div className="bg-[#02050a] pt-[4rem] md:pt-[8rem] pb-[1rem] h-[100%]">
+    <div className="bg-[#02050a] pt-[4rem] md:pt-[8rem] pb-[1rem] h-[100%]" id = 'projects'>
       <h1 className="heading">
         Pro<span className="text-yellow-400">jects</span>
       </h1>
       <div className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] ">
-        {/* <div className='w-[80%] pt-[2rem] mx-auto grid grid-cols-2 gap-[2rem]'> */}
         <div className="project-item">
           <ProjectItem
             title="Job Tech Stack"

@@ -16,7 +16,7 @@ const Footer = () => {
        window.location.href = 'mailto:victorchhun55@gmail.com'
     };
   return (
-    <div className='pt-[8rem] pb-[4rem] bg-[#02050a]'>
+    <div className='pt-[8rem] pb-[4rem] bg-[#02050a]' id = 'contact'>
         <div className='grid border-b-[1px] pb-[6rem] border-gray-400 grid-cols-1 lg:grid-cols-4 md:grid-cols-2 w-[80%] mx-auto gap-[3rem]'>
             
             <div className='flex items-center space-x-6'>
@@ -79,9 +79,11 @@ const Footer = () => {
                 Victor Chhun 2025 | All Rights Reserved
             </div>
             <div className='flex items-center space-x-10'>
-                <p className='text-[16px] text-white opacity-20'>Term & condition</p>
-                <p className='text-[16px] text-white opacity-20'>Privacy</p>
-                <p className='text-[16px] text-white opacity-20'>SiteMap</p>
+                <p className='text-[16px] text-white opacity-80'>Home</p>
+                <p className='text-[16px] text-white opacity-80'>Services</p>
+                <p className='text-[16px] text-white opacity-80'>Projects</p>
+                <p className='text-[16px] text-white opacity-80'>Contact</p>
+
             </div>
         </div>
     </div>

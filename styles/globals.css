@@ -15,8 +15,8 @@
     }
     .project-item{
         @apply transform cursor-pointer hover:-translate-y-6 
-        transition-all duration-200 relative w-[100%] h-[300px] 
-        md:h-[350px]
+        transition-all duration-200 relative w-[100%] h-[350px] 
+        md:h-[450px] lg:h-[500px]
     }
     .project-skill{
         @apply mr-2 last:mr-0 text-base font-medium text-[#1a202c]

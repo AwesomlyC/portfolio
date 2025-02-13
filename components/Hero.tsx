@@ -4,8 +4,16 @@ import TextEffect from "./TextEffect";
 import Image from "next/image";
 import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
 const Hero = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/Files/Victor_Chhun_Resume_Feb2025.pdf"; // Replace with your file path
+    link.download = "VictorChhun-CV.pdf"; // Desired filename for the download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
-    <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center">
+    <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center" id ='home'>
       <Particle />
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>
@@ -13,16 +21,18 @@ const Hero = () => {
             HELLO, I&apos;M <span className="text-yellow-400">VICTOR!</span>
           </h1>
           <TextEffect />
-          <p className='mt-[2rem] text-[20px] text-[#ffffff92]'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea non
-            neque molestiae consequatur iste doloremque tempora, harum
-            necessitatibus aut reiciendis vero, ullam beatae similique
-            recusandae odit quidem facilis! Eveniet, accusantium.
+          <p className="mt-[2rem] text-[20px] text-[#ffffff92]">
+            A highly motivated computer science graduate at the University of
+            California, Irvine. I am constantly finding ways to improve my
+            technical skills through school/personal projects.
           </p>
-          <div className='mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6'>
-            <button className='px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items:center space-x-2'>
+          <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
+            <button
+              onClick={handleDownload}
+              className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items:center space-x-2"
+            >
               <p>Download CV</p>
-              <ArrowDownTrayIcon className='w-[1.6rem] h-[1.7rem] text-black' />
+              <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
             </button>
           </div>
         </div>

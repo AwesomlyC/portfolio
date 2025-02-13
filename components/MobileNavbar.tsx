@@ -7,16 +7,30 @@ interface Props {
 }
 
 const MobileNavbar = ({nav,closeNav}: Props) => {
+
+    const scrollToSection = (idName: string) => {
+        if (idName === 'top'){
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          })
+        } else {
+          const targetElement = document.getElementById(idName);
+          targetElement?.scrollIntoView({behavior: "smooth"});
+        }
+        closeNav();
+      }
     const navAnimation = nav ? 'translate-x-0' : 'translate-x-[-100%]';
 
   return (
     <div className={`fixed ${navAnimation}  transform transition-all duration-300 top-0 left-0 right-0 bottom-0 z-[100000] bg-[#09101a]`}>
         
         <div className='w-[100vw] h-[100vh] flex flex-col items-center justify-center'>
-            <div className='nav-link-mobile'>Home</div>
-            <div className='nav-link-mobile'>Projects</div>
-            <div className='nav-link-mobile'>About</div>
-            <div className='nav-link-mobile'>Contact</div>
+            <div className='nav-link-mobile' onClick={() => scrollToSection('top')}>Home</div>
+            {/* <div className='nav-link-mobile'>About</div> */}
+            <div className='nav-link-mobile' onClick={() => scrollToSection('services')}>Services</div>
+            <div className='nav-link-mobile' onClick={() => scrollToSection('projects')}>Projects</div>
+            <div className='nav-link-mobile' onClick={() => scrollToSection('contact')}>Contact</div>
         </div>
         <div 
             onClick = {closeNav} 
