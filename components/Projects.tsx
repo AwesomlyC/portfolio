@@ -10,6 +10,15 @@ const Projects = () => {
       </h1>
       <div className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] ">
         <div className="project-item">
+            <ProjectItem
+              title="Portfolio"
+              description={`My own Personal Portfolio! Thank you for looking at my Portfolio!`}
+              skills={["React", "Typescript", "Next.js", "Tailwind CSS", "Netlify"]}
+              githublink="https://github.com/AwesomlyC/portfolio"
+              websitelink="https://victorchhun.netlify.app"
+            />
+          </div>
+        <div className="project-item">
           <ProjectItem
             title="Job Tech Stack"
             description={`Full-stack application that enables users to input job details, 
