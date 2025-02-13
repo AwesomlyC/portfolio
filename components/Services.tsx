@@ -1,4 +1,5 @@
 import { CodeBracketSquareIcon, CommandLineIcon, RocketLaunchIcon } from "@heroicons/react/16/solid";
+
 import React from "react";
 
 const Services = () => {
@@ -23,6 +24,7 @@ const Services = () => {
         <div>
           <div className="bg-orange-700 hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
             <RocketLaunchIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]" />
+            
             <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
               Backend
             </h1>
