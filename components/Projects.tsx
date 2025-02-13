@@ -8,7 +8,7 @@ const Projects = () => {
       <h1 className="heading">
         Pro<span className="text-yellow-400">jects</span>
       </h1>
-      <div className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] ">
+      <div className="w-[80%] pt-[2rem] pb-[3rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] ">
         <div className="project-item">
             <ProjectItem
               title="Portfolio"
@@ -33,7 +33,7 @@ const Projects = () => {
         </div>
         <div className="project-item">
           <ProjectItem
-            title="To-Do List Application"
+            title="WhatsOnTheList"
             description="Robust to-do list application to allow users to create a list without 
             creating an account. Capable of CRUD operations utilizing Spring Boot to perform such actions"
             skills={["Java", "Javascript", "React", "Node.js", "MongoDB", "Spring Boot"]}

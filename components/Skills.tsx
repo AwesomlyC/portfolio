@@ -1,6 +1,7 @@
 import React from "react";
 import SkillsItem from "./SkillsItem";
 import SkillsLanguage from "./SkillsLanguage";
+import SkillsList from "./SkillsList";
 
 const Skills = () => {
   return (
@@ -16,13 +17,27 @@ const Skills = () => {
           />
         </div>
         <div>
-          <SkillsLanguage
-            skill1="react"
-            skill2="tailwind"
-            skill3="java"
-            level1="w-[91%]"
-            level2="w-[40%]"
-            level3="w-[80%]"
+          <SkillsList
+            skillTitleFirst="Lanaguages &"
+            skillTitleSecond="Databases"
+            skills={["Java", "Python", "JavaScript", "TypeScript", "MySQL", "PostgreSQL", 
+              "MongoDB", "NoSQL", "SQLite3", "Cassandra", "Couchbase"]}
+          />
+          <SkillsList
+            skillTitleFirst="Web"
+            skillTitleSecond="Development"
+            skills={["React", "Express.js", "Node.js", "Next.js", "JDBC", "jQuery", 
+              "Axios", "Django", "Tailwind CSS"]}
+          />
+          <SkillsList
+            skillTitleFirst="DevOps &"
+            skillTitleSecond="Tools"
+            skills={["Git", "GitHub", "Maven", "AWS", "Tomcat", "JMeter", "JUnit"]}
+          />
+          <SkillsList
+            skillTitleFirst="APIs &"
+            skillTitleSecond="Architecture"
+            skills={["RESTFul APIs", "Microservices", "Clerk", "Vercel", "Netlify"]}
           />
         </div>
       </div>
