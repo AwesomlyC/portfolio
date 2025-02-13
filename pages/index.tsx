@@ -1,4 +1,3 @@
-import About from '@/components/About';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import MobileNavbar from '@/components/MobileNavbar';
@@ -24,7 +23,6 @@ const HomePage = () => {
 
         <Hero />
         <div className='relative z-[20]'>
-          {/* <About /> */}
           <Services />
           <Skills />
           <Projects />
