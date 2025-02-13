@@ -24,7 +24,6 @@ const Hero = () => {
               <p>Download CV</p>
               <ArrowDownTrayIcon className='w-[1.6rem] h-[1.7rem] text-black' />
             </button>
-
           </div>
         </div>
         <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]">
