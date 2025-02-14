@@ -31,7 +31,7 @@ const Skills = () => {
           <SkillsList
             skillTitleFirst="DevOps &"
             skillTitleSecond="Tools"
-            skills={["Git", "GitHub", "Maven", "AWS", "Tomcat", "JMeter", "JUnit"]}
+            skills={["Git", "GitHub", "Maven", "AWS", "Tomcat", "JMeter", "JUnit", "Postman", "Selenium"]}
           />
           <SkillsList
             skillTitleFirst="APIs &"
