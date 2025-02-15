@@ -129,13 +129,42 @@ const ProjectPage = () => {
             websitelink="https://devpost.com/software/petr-run"
           />
 
+
           <ProjectItem
             title="DieDiabetes"
             description={`Hackathon 2024 at IrvineHacks2024 in which built a mobile application for users to track their 
-                carbohydrate intake and the amount of insulin required.`}
+              carbohydrate intake and the amount of insulin required.`}
             skills={["Java", "Kotlin"]}
             githublink="https://github.com/AwesomlyC/IrvineHacks2024"
           />
+
+            <ProjectItem
+              title="Spootify"
+              description={`Spotify Clone built from scratch using Official Spotify's APIs`}
+              skills={["React", "Node.js", "JavaScript"]}
+              githublink=""
+            />
+
+            <ProjectItem
+              title="Tetris Game"
+              description={`Fun little replica of the popular game, Tetris`}
+              skills={["C++", "Raylib"]}
+              githublink="https://github.com/AwesomlyC/Tetris-Game"
+            />
+
+            <ProjectItem
+              title="Snake Game"
+              description={`Completed replica of the popular game, Snake, with SFX`}
+              skills={["C++", "Raylib"]}
+              githublink="https://github.com/AwesomlyC/Retro_Snake"
+            />
+
+            <ProjectItem
+              title="Mini Shell"
+              description={`"Mini" version of the Unix Shell using C programming language`}
+              skills={["C"]}
+              githublink="https://github.com/AwesomlyC/Mini-Shell"
+            />
         </div>
       </div>
       <Footer />
