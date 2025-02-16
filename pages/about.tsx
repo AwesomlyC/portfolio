@@ -98,7 +98,7 @@ const About = () => {
                 reach me via email at{" "}
                 <a
                   href="mailto:victorchhun55@gmail.com"
-                  className="external-link text-blue-400"
+                  className="external-links text-blue-400"
                 >
                   victorchhun55@gmail.com
                 </a>
