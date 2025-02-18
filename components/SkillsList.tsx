@@ -8,10 +8,10 @@ interface Props {
 const SkillsList = ({skillTitleFirst, skillTitleSecond, skills} : Props) => {
   return (
     <div className='text-white'>
-        <h3 className='text-[24px]'>
+        <text className='text-[24px]'>
             {skillTitleFirst} {skillTitleSecond ? <span className='text-yellow-400'>{skillTitleSecond}</span> : null}
             
-        </h3>
+        </text>
         <div className='mb-6 flex flex-wrap capitalize '>
             {skills.map((skill) => (
                 <div className='project-skill bg-blue-800 hover:bg-yellow-600' key = {skill}>{skill} </div>

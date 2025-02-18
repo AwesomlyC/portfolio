@@ -19,7 +19,7 @@ const ProjectItem = ({title, description, skills, githublink, websitelink} : Pro
       dark:hover:bg-slate-600/30 cursor-pointer p-4 sm:p-6 flex flex-col justify-between"
       >
         <header>
-          <h3 className="pb-4 font-semibold text-lg text-white">{title}</h3>
+          <text className="pb-4 font-semibold text-lg text-white">{title}</text>
           <p className="text-white opacity-80">
               {description}
           </p>
@@ -32,12 +32,12 @@ const ProjectItem = ({title, description, skills, githublink, websitelink} : Pro
           </div>
           <ul className="flex space-x-3 text-[18px]">
   {          githublink ? <li className="z-10">
-              <a href={githublink}>
+              <a href={githublink} title={githublink}>
                 <FaGithub className="project-icon" />
               </a>
             </li> : null}
   {          websitelink ? <li className="z-10">
-              <a href={websitelink}>
+              <a href={websitelink} title={websitelink}>
                 <FaExternalLinkAlt className="project-icon" />
               </a>
             </li> : null}

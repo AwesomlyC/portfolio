@@ -20,7 +20,7 @@ const Footer = () => {
     <div className="pt-[8rem] pb-[4rem] bg-[#02050a]" id="contact">
       <ContactMethod />
       <div className="w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between">
-        <div className="text-[16px] mb-[2rem] md:mb-0 text-white opacity-20">
+        <div className="text-[16px] mb-[2rem] md:mb-0 text-white opacity-80">
           Victor Chhun 2025 | All Rights Reserved
         </div>
         <div className="flex items-center space-x-10 cursor-pointer">
