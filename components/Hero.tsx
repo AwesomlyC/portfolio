@@ -16,7 +16,7 @@ const Hero = () => {
     <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center" id ='home'>
       <div className='h-[100%] w-[100%] absolute'><Particle /></div>
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
-        <div className='h-[100%] w-[100%]'>
+        <div className='h-[50%] w-[100%]'>
           <h1 className="text-[35px] md:text-[50px] text-white font-bold">
             HELLO, I&apos;M <span className="text-yellow-400">VICTOR!</span>
           </h1>
@@ -36,7 +36,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]">
+        <div className="w-[480px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]">
           <Image
             src="/images/profilepicture.jpg"
             alt="user"

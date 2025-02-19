@@ -7,9 +7,14 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {fontFamily: {
-      primary: ["Raleway"],
-    }},
+    extend: {
+      fontFamily: {
+        primary: ["Raleway"],
+      },
+      screens: {
+        xs: "200px", // Custom breakpoint
+      },
+    },
   },
   plugins: [],
 } satisfies Config;
