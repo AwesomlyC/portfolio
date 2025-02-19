@@ -43,7 +43,7 @@ const Projects = () => {
               "Clerk",
             ]}
             githublink="https://github.com/AwesomlyC/JobTechStack"
-            websitelink="https://job-tech-stack-frontend.vercel.app"
+            websitelink="https://jobtechstack.vercel.app"
           />
         <ProjectItem
           title="Django Blog Page"
