@@ -13,7 +13,7 @@ const Hero = () => {
     document.body.removeChild(link);
   };
   return (
-    <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center" id ='home'>
+    <div className="h-[100vh] bg-[url('/images/banner.jpg')] bg-cover bg-center " id ='home'>
       <div className='h-[100%] w-[100%] absolute'><Particle /></div>
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div className='h-[50%] w-[100%]'>
