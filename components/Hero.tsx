@@ -13,14 +13,21 @@ const Hero = () => {
     document.body.removeChild(link);
   };
   return (
-    <div className="h-[100vh] bg-[url('/images/banner.jpg')] bg-cover bg-center " id ='home'>
-      <div className='h-[100%] w-[100%] absolute'><Particle /></div>
+    <div
+      className="h-[100vh] bg-[url('/images/banner.jpg')] bg-cover bg-center "
+      id="home"
+    >
+      <div className="h-[100%] w-[100%] absolute">
+        <Particle />
+      </div>
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
-        <div className='h-[50%] w-[100%]'>
+        <div className="h-[50%] w-[100%]">
           <h1 className="text-[35px] md:text-[50px] text-white font-bold">
             HELLO, I&apos;M <span className="text-yellow-400">VICTOR!</span>
           </h1>
-          <TextEffect />
+          <span>
+            <TextEffect />
+          </span>
           <p className="mt-[2rem] text-[20px] text-[#ffffff92]">
             A highly motivated computer science graduate at the University of
             California, Irvine. I am constantly finding ways to improve my
