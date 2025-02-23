@@ -4,4 +4,4 @@ Allow: /
 Disallow: /api/
 Disallow: /admin/
 
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://victorchhun.netlify.app/sitemap.xml
