@@ -1,4 +1,9 @@
-import { TypeAnimation } from 'react-type-animation';
+import dynamic from "next/dynamic";
+
+const TypeAnimation = dynamic(
+  () => import("react-type-animation").then((mod) => mod.TypeAnimation),
+  { ssr: false } // Ensures it only renders on the client
+);
 
 const TextEffect = () => {
   return (
