@@ -25,9 +25,7 @@ const Hero = () => {
           <h1 className="text-[35px] md:text-[50px] text-white font-bold">
             HELLO, I&apos;M <span className="text-yellow-400">VICTOR!</span>
           </h1>
-          <span>
-            <TextEffect />
-          </span>
+          <TextEffect />
           <p className="mt-[2rem] text-[20px] text-[#ffffff92]">
             A highly motivated computer science graduate at the University of
             California, Irvine. I am constantly finding ways to improve my
