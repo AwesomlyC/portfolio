@@ -9,7 +9,7 @@ const About = () => {
   const closeNav = () => setNav(false);
   return (
     <div>
-      <title> About</title>
+      {/* <title> About</title> */}
       <MobileNavbar nav={nav} closeNav={closeNav} />
       <Navbar openNav={openNav} />
       <div className="pt-[2rem] md:pt-[4rem] pb-[5rem] bg-[#09101a] text-white">

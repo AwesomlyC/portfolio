@@ -10,7 +10,7 @@ const ProjectPage = () => {
   const closeNav = () => setNav(false);
   return (
     <div>
-      <title> Projects</title>
+      {/* <title> Projects</title> */}
       <MobileNavbar nav={nav} closeNav={closeNav} />
       <Navbar openNav={openNav} />
       <div

@@ -45,10 +45,10 @@ const Navbar = ({ openNav }: Props) => {
           )}
         </p>
         <p className="nav-link">
-          <Link href="/projects">Projects</Link>
+          <Link href="/projects" prefetch={true}>Projects</Link>
         </p>
         <p className="nav-link">
-          <Link href="/about">About</Link>
+          <Link href="/about" prefetch={true}>About</Link>
         </p>
         <p className="nav-link" onClick={() => scrollToSection("contact")}>
           Contact

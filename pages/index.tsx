@@ -11,7 +11,6 @@ const HomePage = () => {
   return (
     <div>
       <div>
-        <title> VicSite</title>
         <MobileNavbar nav={nav} closeNav={closeNav} />
         <Navbar openNav={openNav} />
         <Home />

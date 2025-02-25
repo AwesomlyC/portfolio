@@ -24,28 +24,28 @@ const Footer = () => {
           Victor Chhun 2025 | All Rights Reserved
         </div>
         <div className="flex items-center space-x-10 cursor-pointer flex-wrap opacity-80">
-          <p className="nav-link !block">
+          <p className="nav-link ">
             {isHomePage ? (
               <span onClick={() => scrollToSection("top")}>Home</span>
             ) : (
               <Link href="/">Home</Link>
             )}
           </p>
-          <p className="nav-link !block">
+          <p className="nav-link ">
             {isHomePage ? (
               <span onClick={() => scrollToSection("services")}>Services</span>
             ) : (
               <Link href="/#services">Services</Link>
             )}
           </p>
-          <p className="nav-link !block">
+          <p className="nav-link ">
             <Link href="/projects">Projects</Link>
           </p>
-          <p className="nav-link !block">
+          <p className="nav-link ">
             <Link href="/about">About</Link>
           </p>
           <p
-            className="nav-link !block"
+            className="nav-link "
             onClick={() => scrollToSection("contact")}
           >
             Contact
