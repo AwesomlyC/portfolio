@@ -25,10 +25,9 @@ const Navbar = ({ openNav }: Props) => {
       <div className="flex items-center justify-between w-[80%] mx-auto h-[100%]">
         <h1
           className="flex-[0.6] cursor-pointer text-[25px] text-white font-bold"
-          onClick={() => scrollToSection("top")}
         >
-          Vic
-          <span className="text-yellow-300">Site</span>
+          <Link href='/'>Vic
+          <span className="text-yellow-300">Site</span></Link>
         </h1>
         <p className="nav-link">
           {isHomePage ? (
