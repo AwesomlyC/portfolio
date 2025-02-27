@@ -1,7 +1,6 @@
-// import Image from 'next/image'
 import React from "react";
 import ProjectItem from "./ProjectItem";
-
+import Link from "next/link";
 const Projects = () => {
   return (
     <div
@@ -9,9 +8,9 @@ const Projects = () => {
       id="projects"
     >
       <h1 className="heading">
-        Pro<span className="text-yellow-400">jects</span>
+        Featured <span className="text-yellow-400">Projects</span>
       </h1>
-      <div className="w-[80%] pt-[2rem] pb-[3rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] ">
+      <div className="w-[80%] pt-[2rem] pb-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] ">
           <ProjectItem
             title="Portfolio"
             description={`My own Personal Portfolio! Thank you for looking at my Portfolio!`}
@@ -128,6 +127,9 @@ const Projects = () => {
             skills={["Java", "Kotlin"]}
             githublink="https://github.com/AwesomlyC/IrvineHacks2024"
           />
+      </div>
+      <div className='w-[80%] pt-[1.25rem] mx-auto'>
+       <Link href='/projects' className='nav-link text-lg'>&gt; More Projects</Link>
       </div>
     </div>
   );

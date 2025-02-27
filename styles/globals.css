@@ -19,15 +19,14 @@
   }
   .project-item {
     @apply transform cursor-pointer hover:-translate-y-6 
-        transition-all duration-200 relative w-[100%] h-[350px] 
-        md:h-[450px] lg:h-[500px];
+        transition-all duration-200 relative w-[100%] h-[100%];
   }
   .project-skill {
     @apply mr-2 last:mr-0 text-base font-medium text-[#1a202c]
-        dark:text-[#edf2f7] list-none bg-[#1a202c]/10 font-semibold 
-        text-[#1a202c]/95 dark:bg-[#edf2f7]/10 dark:text-[#edf2f7]/95 
-        duration-300 hover:bg-[#1a202c]/[0.175] hover:dark:bg-[#edf2f7]/[0.175] 
-        rounded-lg px-2 py-1 my-auto text-sm mt-[1rem];
+        dark:text-[#edf2f7] list-none font-semibold 
+        text-[#1a202c]/95  dark:text-[#edf2f7]/95 
+        duration-300 
+        rounded-lg px-2 py-1 my-auto text-sm mt-[1rem] bg-blue-800 hover:bg-yellow-600;
   }
   .project-icon {
     @apply text-gray-800 invert cursor-pointer hover:text-blue-500 hover:invert-0;

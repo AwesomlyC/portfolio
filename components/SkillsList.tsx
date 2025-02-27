@@ -12,7 +12,7 @@ const SkillsList = ({skillTitleFirst, skillTitleSecond, skills} : Props) => {
             {skillTitleFirst} {skillTitleSecond ? <span className='text-yellow-400'>{skillTitleSecond}</span> : null}
             
         </text>
-        <div className='mb-6 flex flex-wrap capitalize '>
+        <div className='mb-6 flex flex-wrap capitalize'>
             {skills.map((skill) => (
                 <div className='project-skill bg-blue-800 hover:bg-yellow-600' key = {skill}>{skill} </div>
             ))}

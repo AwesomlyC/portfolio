@@ -8,9 +8,9 @@ const Hero = () => {
     const link = document.createElement("a");
     link.href = "/Files/Victor_Chhun_Resume_Feb2025.pdf"; // Replace with your file path
     link.download = "VictorChhun-CV.pdf"; // Desired filename for the download
-    // document.body.appendChild(link);
-    // link.click();
-    // document.body.removeChild(link);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
   return (
     <div
