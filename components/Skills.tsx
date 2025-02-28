@@ -1,5 +1,5 @@
 import React from "react";
-import SkillsItem from "./SkillsItem";
+import EducationItem from "./EducationItem";
 import SkillsList from "./SkillsList";
 
 const Skills = () => {
@@ -10,7 +10,7 @@ const Skills = () => {
       </h1>
       <div className="w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center">
         <div>
-          <SkillsItem
+          <EducationItem
             title="University of California - Irvine"
             year="2020 - 2024"
           />

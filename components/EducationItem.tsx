@@ -5,7 +5,7 @@ interface Props {
   year: string;
 }
 
-const SkillsItem = ({ title, year }: Props) => {
+const EducationItem = ({ title, year }: Props) => {
   return (
     <div className="mb-[4rem] md:mb-[8rem]">
       <span className="px-[2rem] text-[#55e6a5] py-[0.9rem] font-bold text-[18px] border-[2px] border-[#55e6a5]">
@@ -22,4 +22,4 @@ const SkillsItem = ({ title, year }: Props) => {
   );
 };
 
-export default SkillsItem;
+export default EducationItem;

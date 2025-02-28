@@ -9,18 +9,17 @@ const About = () => {
   const closeNav = () => setNav(false);
   return (
     <div>
-      {/* <title> About</title> */}
       <MobileNavbar nav={nav} closeNav={closeNav} />
       <Navbar openNav={openNav} />
       <div className="pt-[2rem] md:pt-[4rem] pb-[5rem] bg-[#09101a] text-white">
-        <h1 className="heading">
+        <h1 className="heading pt-[3rem]">
           ABOUT <span className="text-yellow-400">ME</span>
         </h1>
         <section
           className="flex items-center justify-center 
           pt-[2rem] pb-[2rem]  w-[100%]"
         >
-          <div className="space-y-6 text-left max-w-2xl">
+          <div className="space-y-6 text-left w-full sm:max-w-[50%] max-w-[75%] ">
             <p>
               I graduated with a <text className='text-semibold text-blue-400 shadow-lg'>Bachelor&apos;s degree</text> in Computer Science from the University of California, Irvine, 
               in June 2024, achieving a <text className='text-semibold text-blue-400 shadow-lg'>cumulative GPA</text> of <text className='text-semibold text-blue-400 shadow-lg'>3.698</text>. Throughout my academic journey, 
@@ -59,7 +58,7 @@ const About = () => {
         <section className='flex flex-col justify-center items-center
           pt-[2rem] pb-[2rem]  w-[100%] '>
             <h1 className='heading'>Ski<span className='text-yellow-400'>lls</span></h1>
-           <div className='space-y-12 max-w-2xl'>
+           <div className='space-y-12 sm:max-w-[50%] max-w-[75%] pt-[1.25rem]'>
             <SkillsList
               skillTitleFirst="Lanaguages &"
               skillTitleSecond="Databases"
@@ -86,14 +85,14 @@ const About = () => {
         </section>
 
         <div>
-          <h1 className="heading">
+          <h1 className="heading pt-[1.25rem]">
             CONTACT <span className="text-yellow-400">ME</span>
           </h1>
           <section
             className="flex items-center justify-center 
           pt-[2rem] pb-[2rem]  w-[100%]"
           >
-            <div className="space-y-6 text-left max-w-2xl">
+            <div className="space-y-6 text-left max-w-[50%]">
               <p>
                 Want to ask me a question or to just say hello? Feel free to
                 reach me via email at{" "}
