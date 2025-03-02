@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="text-[16px] mb-[2rem] md:mb-0 text-white opacity-80 break-words w-[75%]">
           Victor Chhun 2025 | All Rights Reserved
         </div>
-        <div className="flex items-center space-x-10 cursor-pointer flex-wrap opacity-80">
+        <div className="flex space-x-10 cursor-pointer flex-wrap opacity-80 justify-end mr-[3rem]">
           <p className="nav-link ">
             {isHomePage ? (
               <span onClick={() => scrollToSection("top")}>Home</span>

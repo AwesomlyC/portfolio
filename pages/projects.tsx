@@ -10,7 +10,6 @@ const ProjectPage = () => {
   const closeNav = () => setNav(false);
   return (
     <div>
-      {/* <title> Projects</title> */}
       <MobileNavbar nav={nav} closeNav={closeNav} />
       <Navbar openNav={openNav} />
       <div
@@ -21,6 +20,19 @@ const ProjectPage = () => {
           Pro<span className="text-yellow-400">jects</span>
         </h1>
         <div className="w-[80%] pt-[2rem] pb-[3rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] ">
+          <ProjectItem
+            title="Friends Application"
+            description={`Simple CRUD application to display your friends' information
+              such as their name, email, phone number, and Twitter/X handle. Additionally, utilize devise gem for simple user authentication for
+              a more user-focused application. This application is meant for learning the Ruby on Rails framework
+              and related technology.`}
+            skills={[
+              "Ruby on Rails",
+              "Ruby",
+              "BootStrap",
+            ]}
+            githublink="https://github.com/AwesomlyC/railsfriends"
+          />
           <ProjectItem
             title="Portfolio"
             description={`My own Personal Portfolio! Thank you for looking at my Portfolio!`}
@@ -37,7 +49,7 @@ const ProjectPage = () => {
           <ProjectItem
             title="Job Tech Stack"
             description={`Full-stack application that enables users to input job details, 
-                extract and analyze technical keywords (Java, SQL, and React) from job 
+                and extract and analyze technical keywords (Java, SQL, and React) from job 
                 descriptions. It visualizes this data using pie and line charts, 
                 allowing users to track job application trends and gain insights over time`}
             skills={[
@@ -71,8 +83,8 @@ const ProjectPage = () => {
 
           <ProjectItem
             title="WhatsLN"
-            description={`Full stack application to display thousands of Light Novels/Mangas 
-                in order to find recommendations. Additionally, allow users to sign into their MyAnimeList 
+            description={`Full stack application to display thousands of Light Novels/Mangas
+                to find recommendations. Additionally, users can sign into their MyAnimeList
                 account via OAuth 2.0 from the official MyAnimeList API.`}
             skills={[
               "JavaScript",
@@ -103,9 +115,9 @@ const ProjectPage = () => {
           />
           <ProjectItem
             title="Fabflix Movie Database Web Application"
-            description="Fully build architecture from end-to-end that is capable of performing all features
-              under 500 milliseconds. Coordinated with a colleague to deploy this application on AWS EC2. Application that displays
-              a catalog of 1000s of movies and allow users to 'checkout' those movies."
+            description="Fully build architecture from end-to-end that can perform all features
+              under 500 milliseconds. Coordinated with a colleague to deploy this application on AWS EC2. This application displays
+              a catalog of 1000s of movies and allows users to 'checkout' those movies."
             skills={["Java", "Javascript", "AWS", "jQuery"]}
             githublink=""
             websitelink=""
@@ -133,7 +145,7 @@ const ProjectPage = () => {
 
           <ProjectItem
             title="DieDiabetes"
-            description={`Hackathon 2024 at IrvineHacks2024 in which built a mobile application for users to track their 
+            description={`Hackathon 2024 at IrvineHacks2024 which built a mobile application for users to track their 
               carbohydrate intake and the amount of insulin required.`}
             skills={["Java", "Kotlin"]}
             githublink="https://github.com/AwesomlyC/IrvineHacks2024"
