@@ -74,7 +74,6 @@ const Projects = () => {
             "Jikan API",
           ]}
           githublink="https://github.com/AwesomlyC/WhatsLN"
-          websitelink=""
         />
           <ProjectItem
             title="WhatsOnTheList"
@@ -89,7 +88,6 @@ const Projects = () => {
               "Spring Boot",
             ]}
             githublink="https://github.com/AwesomlyC/To_Do_Application"
-            websitelink=""
           />
           <ProjectItem
             title="Fabflix Movie Database Web Application"
@@ -97,8 +95,6 @@ const Projects = () => {
             under 500 milliseconds. Coordinated with a colleague to deploy this application on AWS EC2. Application that displays
             a catalog of 1000s of movies and allow users to 'checkout' those movies."
             skills={["Java", "Javascript", "AWS", "jQuery"]}
-            githublink=""
-            websitelink=""
           />
           <ProjectItem
             title="Ranked Search Engine"
@@ -108,7 +104,6 @@ const Projects = () => {
             under 300 milliseconds."
             skills={["Python", "Flask"]}
             githublink="https://github.com/AwesomlyC/Ranked-Search-Engine"
-            websitelink=""
           />
           <ProjectItem
             title="Petr Run"
@@ -119,13 +114,10 @@ const Projects = () => {
             githublink="https://github.com/munizaa/HACK-AT-UCI-2023"
             websitelink="https://devpost.com/software/petr-run"
           />
-
-          <ProjectItem
-            title="DieDiabetes"
-            description={`Hackathon 2024 at IrvineHacks2024 in which built a mobile application for users to track their 
-              carbohydrate intake and the amount of insulin required.`}
-            skills={["Java", "Kotlin"]}
-            githublink="https://github.com/AwesomlyC/IrvineHacks2024"
+            <ProjectItem
+              title="Spootify"
+              description={`Spotify Clone built from scratch using Official Spotify's APIs`}
+              skills={["React", "Node.js", "JavaScript"]}
           />
       </div>
       <div className='w-[80%] pt-[1.25rem] mx-auto'>

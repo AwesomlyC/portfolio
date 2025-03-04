@@ -19,20 +19,17 @@ const ProjectPage = () => {
         <h1 className="heading">
           Pro<span className="text-yellow-400">jects</span>
         </h1>
-        <div className="w-[80%] pt-[2rem] pb-[3rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] ">
+        <div className="w-[80%] pt-[2rem] pb-[3rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem]">
           <ProjectItem
             title="Friends Application"
             description={`Simple CRUD application to display your friends' information
               such as their name, email, phone number, and Twitter/X handle. Additionally, utilize devise gem for simple user authentication for
               a more user-focused application. This application is meant for learning the Ruby on Rails framework
               and related technology.`}
-            skills={[
-              "Ruby on Rails",
-              "Ruby",
-              "BootStrap",
-            ]}
+            skills={["Ruby on Rails", "Ruby", "BootStrap"]}
             githublink="https://github.com/AwesomlyC/railsfriends"
           />
+
           <ProjectItem
             title="Portfolio"
             description={`My own Personal Portfolio! Thank you for looking at my Portfolio!`}
@@ -46,6 +43,7 @@ const ProjectPage = () => {
             githublink="https://github.com/AwesomlyC/portfolio"
             websitelink="https://victorchhun.netlify.app"
           />
+
           <ProjectItem
             title="Job Tech Stack"
             description={`Full-stack application that enables users to input job details, 
@@ -66,6 +64,7 @@ const ProjectPage = () => {
             githublink="https://github.com/AwesomlyC/JobTechStack"
             websitelink="https://jobtechstack.vercel.app"
           />
+
           <ProjectItem
             title="Django Blog Page"
             description={`Mini project to explore Django Framework to build a blog application.`}
@@ -119,8 +118,21 @@ const ProjectPage = () => {
               under 500 milliseconds. Coordinated with a colleague to deploy this application on AWS EC2. This application displays
               a catalog of 1000s of movies and allows users to 'checkout' those movies."
             skills={["Java", "Javascript", "AWS", "jQuery"]}
-            githublink=""
-            websitelink=""
+          />
+
+          <ProjectItem
+            title="Bannify"
+            description={`SaaS Application to allow user to generate their banner to be used for social media by utilizing
+                        AI.`}
+            skills={[
+              "Vite",
+              "React",
+              "Express.js",
+              "Clerk",
+              "Stripe",
+              "GCP",
+              "Stable Diffusion AI",
+            ]}
           />
           <ProjectItem
             title="Ranked Search Engine"
@@ -142,7 +154,6 @@ const ProjectPage = () => {
             websitelink="https://devpost.com/software/petr-run"
           />
 
-
           <ProjectItem
             title="DieDiabetes"
             description={`Hackathon 2024 at IrvineHacks2024 which built a mobile application for users to track their 
@@ -151,33 +162,33 @@ const ProjectPage = () => {
             githublink="https://github.com/AwesomlyC/IrvineHacks2024"
           />
 
-            <ProjectItem
-              title="Spootify"
-              description={`Spotify Clone built from scratch using Official Spotify's APIs`}
-              skills={["React", "Node.js", "JavaScript"]}
-              githublink=""
-            />
+          <ProjectItem
+            title="Spootify"
+            description={`Spotify Clone built from scratch using Official Spotify's APIs`}
+            skills={["React", "Node.js", "JavaScript"]}
+            githublink=""
+          />
 
-            <ProjectItem
-              title="Tetris Game"
-              description={`Fun little replica of the popular game, Tetris`}
-              skills={["C++", "Raylib"]}
-              githublink="https://github.com/AwesomlyC/Tetris-Game"
-            />
+          <ProjectItem
+            title="Tetris Game"
+            description={`Fun little replica of the popular game, Tetris`}
+            skills={["C++", "Raylib"]}
+            githublink="https://github.com/AwesomlyC/Tetris-Game"
+          />
 
-            <ProjectItem
-              title="Snake Game"
-              description={`Completed replica of the popular game, Snake, with SFX`}
-              skills={["C++", "Raylib"]}
-              githublink="https://github.com/AwesomlyC/Retro_Snake"
-            />
+          <ProjectItem
+            title="Snake Game"
+            description={`Completed replica of the popular game, Snake, with SFX`}
+            skills={["C++", "Raylib"]}
+            githublink="https://github.com/AwesomlyC/Retro_Snake"
+          />
 
-            <ProjectItem
-              title="Mini Shell"
-              description={`"Mini" version of the Unix Shell using C programming language`}
-              skills={["C"]}
-              githublink="https://github.com/AwesomlyC/Mini-Shell"
-            />
+          <ProjectItem
+            title="Mini Shell"
+            description={`"Mini" version of the Unix Shell using C programming language`}
+            skills={["C"]}
+            githublink="https://github.com/AwesomlyC/Mini-Shell"
+          />
         </div>
       </div>
       <Footer />

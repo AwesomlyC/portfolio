@@ -5,7 +5,7 @@ interface Props {
     title: string,
     description: string,
     skills: Array<string>,
-    githublink: string,
+    githublink?: string,
     websitelink?: string
 }
 
@@ -16,13 +16,13 @@ const ProjectItem = ({title, description, skills, githublink, websitelink} : Pro
       <div
         className="group w-full transform duration-300 rounded-2xl border border-slate-500/20 
       dark:border-slate-600/30 bg-slate-100/20 dark:bg-slate-600/20 hover:bg-slate-100/30 
-      dark:hover:bg-slate-600/30 cursor-pointer p-4 sm:p-6 flex flex-col justify-between"
+      dark:hover:bg-slate-600/30 cursor-default p-4 sm:p-6 flex flex-col justify-between"
       >
         <header>
-          <text className="pb-4 font-semibold text-lg text-white">{title}</text>
-          <p className="text-white opacity-80">
-              {description}
-          </p>
+          <div className='pb-[1rem]'>
+            <text className="font-semibold text-xl text-yellow-200">{title}</text> 
+          </div>          
+          <p className="text-white opacity-80">{description}</p>
         </header>
         <footer>
           <div className="mb-6 flex flex-wrap">
@@ -31,12 +31,13 @@ const ProjectItem = ({title, description, skills, githublink, websitelink} : Pro
             }
           </div>
           <ul className="flex space-x-3 text-[18px]">
-  {          githublink ? <li className="z-10">
+              {githublink ? <li className="z-10">
               <a href={githublink} title={githublink}>
                 <FaGithub className="project-icon" />
               </a>
             </li> : null}
-  {          websitelink ? <li className="z-10">
+            
+              {websitelink ? <li className="z-10">
               <a href={websitelink} title={websitelink}>
                 <FaExternalLinkAlt className="project-icon" />
               </a>
