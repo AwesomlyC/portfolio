@@ -6,7 +6,7 @@ import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
 const Hero = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Files/Victor_Chhun_Resume_Feb2025.pdf"; // Replace with your file path
+    link.href = "/Files/Victor_Chhun_Resume_March2025.pdf"; // Replace with your file path
     link.download = "VictorChhun-CV.pdf"; // Desired filename for the download
     document.body.appendChild(link);
     link.click();
