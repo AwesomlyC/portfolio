@@ -20,7 +20,7 @@ const ProjectItem = ({title, description, skills, githublink, websitelink} : Pro
       >
         <header>
           <div className='pb-[1rem]'>
-            <text className="font-semibold text-xl text-yellow-200">{title}</text> 
+            <text className="font-bold text-xl text-yellow-400">{title}</text> 
           </div>          
           <p className="text-white opacity-80">{description}</p>
         </header>
