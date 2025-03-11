@@ -77,7 +77,7 @@ const ContactMethod = () => {
           <h1 className="text-[25px] b-[0.2rem] font-semibold text-white">
             Email Address
           </h1>
-          <p className="text-[14px] w-[90%] text-white opacity-60 break-all">
+          <p className="text-[14px] w-[100%] text-white opacity-60 break-all">
             Victorchhun55@gmail.com
           </p>
         </div>
