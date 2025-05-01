@@ -20,6 +20,17 @@ const ProjectPage = () => {
           Pro<span className="text-yellow-400">jects</span>
         </h1>
         <div className="w-[80%] pt-[2rem] pb-[3rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem]">
+        <ProjectItem 
+            title='Chess Analyzer'
+            description={`
+                A React-based full-stack application that allows players to review and analyse chess games using PGN (Portable Game Notation) data.
+                The app parses PGN strings with Chess.js library, reconstructs move histories, and renders an interactive, read-only chessboard using react-chessboard.
+                Players can navigate through the game using keyboard arrows or by clicking individual moves. 
+                Designed with responsive UI and clean component structure for user interaction and game study.
+
+              `}
+            skills = {["React", "Java", "Spring Boot", "MongoDB", "Chess.js", "Chessboard.js", "CSS", "Axios"]}
+          />
           <ProjectItem
             title="Friends Application"
             description={`Simple CRUD application to display your friends' information

@@ -44,6 +44,18 @@ const Projects = () => {
             githublink="https://github.com/AwesomlyC/JobTechStack"
             websitelink="https://jobtechstack.vercel.app"
           />
+
+          <ProjectItem 
+            title='Chess Analyzer'
+            description={`
+                A React-based full-stack application that allows players to review and analyse chess games using PGN (Portable Game Notation) data.
+                The app parses PGN strings with Chess.js library, reconstructs move histories, and renders an interactive, read-only chessboard using react-chessboard.
+                Players can navigate through the game using keyboard arrows or by clicking individual moves. 
+                Designed with responsive UI and clean component structure for user interaction and game study.
+
+              `}
+            skills = {["React", "Java", "Spring Boot", "MongoDB", "Chess.js", "Chessboard.js", "CSS", "Axios"]}
+          />
         <ProjectItem
           title="Django Blog Page"
           description={`Mini project to explore Django Framework to build a blog application.`}
